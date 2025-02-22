@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <input type="text" id="search">
+    <div id="practice"></div>
+
+
+    <script>
+
+        let result = document.getElementById('practice');
+        let text = document.getElementById('search');
+        text.addEventListener('input', () => {
+            result.textContent = text.value;
+        })
+    </script>
+</body>
+
+</html>

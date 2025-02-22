@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+
+        </div>
+
+        <div class="submition">
+            <input type="text" class="search" id="searchQuery" placeholder="Search e.g, burgers,pizzas,pastas...">
+        </div>
+    </div>
+
+    <div class="category">
+        <button class="all" id="checked">All</button>
+        <button class="burger" id="btnBurger">Burger</button>
+        <button class="Pizza" id="btnPizza">Pizza</button>
+        <button class="pasta" id="btnPasta">Pasta</button>
+    </div>
+
+
+
+    <div class="card-container">
+        <!-- Card 01 -->
+        <div class="card burgers">
+            <div class="title">Burger</div>
+            <div class="img-container"><img src="images/burger1.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+        <!-- Card 02 -->
+        <div class="card burgers">
+            <div class="title">Burger</div>
+            <div class="img-container"><img src="images/burger2.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+
+        <!-- Card 03 -->
+        <div class="card pizzas">
+            <div class="title">Pizza</div>
+            <div class="img-container"><img src="images/pizza1.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+
+        <!-- Card 04 -->
+        <div class="card pizzas">
+            <div class="title">Pizza</div>
+            <div class="img-container"><img src="images/pizza2.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+        <!-- Card 05 -->
+        <div class="card pastas">
+            <div class="title">Pasta</div>
+            <div class="img-container"><img src="images/pasta1.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+        <!-- Card 06 -->
+        <div class="card pastas">
+            <div class="title">Pasta</div>
+            <div class="img-container"><img src="images/pasta2.jpg"></div>
+            <button class="btnAdd">Add To Cart</button>
+        </div>
+
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
